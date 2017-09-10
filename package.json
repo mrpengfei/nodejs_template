@@ -1,0 +1,23 @@
+{
+  "name": "wx.server",
+  "version": "1.0.0",
+  "description": "微信服务端",
+  "main": "www/bin",
+  "keywords": [
+    "微信",
+    "wechat"
+  ],
+  "author": "shipengfei",
+  "license": "ISC",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "ejs": "~2.5.6",
+    "express": "~4.15.2",
+    "log4js": "^2.3.3",
+    "serve-favicon": "~2.4.2"
+  }
+}
